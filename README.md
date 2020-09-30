@@ -1,4 +1,4 @@
-## Manual
+## Instructions
 
 ** Please don't fork this repo, because then other candidates will see your solution :) **
 

@@ -1,53 +1,52 @@
+## Manual
 
-## Instrukcja
+** Don't fork, because then other candidates will see your solution :) **
 
-**Nie rób forka, bo wtedy inni kandydaci będą widzieć Twoje rozwiązanie :)**
+1. clone solution
+2. complete the tasks
+3. Upload to your repository and send us the link
 
-1. sklonuj rozwiązanie 
-2. wykonaj zadania
-3. wrzuć na swoje repozytorium i prześlij nam link
+## Works:
 
-## Zadania:
-
-### 1. własna implementacja obramowania aktywnego obiektu (dalej - element graficzny)
-**Cel: Zmodyfikuj kod w taki sposób aby po zaznaczeniu elementu graficznego obramowanie zmieniło się z domyślnego (A) w następujące (B):**
+### 1. own implementation of the frame of the active object (hereinafter - a graphic element)
+** Purpose: Modify the code in such a way that when the graphic element is selected, the border changes from the default (A) to the following (B): **
 
 ![](http://nullgravity.eu/github/test_custom_border.png)
 
-Uwaga: obrazek B ma na celu tylko zaprezentowanie ostatecznego wyniku, nie należy sugerowac się proporcjami ani konkretnym wyglądem ikon przy narożnikach (mogą być dowolne).
+Note: picture B is only to present the final result, do not be influenced by the proportions or the specific appearance of the icons at the corners (they can be any).
 
-### 2. Dodaj przycisk UI symulujący menu kontekstowe dla aktywnego obiektu (dalej - element UI)
-**Cel: Element UI ma służyć do kontrolowania koloru elementu graficznego. Po wciśnięciu następuje zmiana kolor, może być random.
+### 2. Add a UI button simulating the context menu for the active object (hereinafter - the UI element)
+** Purpose: The UI element is intended to control the color of the graphic element. When pressed, the color changes, it can be random.
 
-## wymagania szczegółowe do powyższych zadań:
+## detailed requirements for the above tasks:
 
-1. element UI musi być pod kontrolą frameworku React, element graficzny z wykorzystaniem Fabric
-2. padding elementu graficznego:
-- obramowania 10 px od obiektu,
-- ikony na krańcach 10 px od obramowania,
-3. ikony elementu graficznego:
-- ikona akcji 'rotate' - kółko
-- ikona akcji 'resize' - trójkąt wskazujący kierunek resize
-4. pozycjonowanie ikon akcji dla elementu graficznego:
-- left-top - obracanie obramowanego obiektu zgodnie z ruchem myszki
-- right-top - skalowanie obramowanego obiektu (jednocześnie w X i Y) zgodnie z ruchem myszki
-- left-bottom - skalowanie obramowanego obiektu (jednocześnie w X i Y) zgodnie z ruchem myszki
-- right-bottom - obracanie obramowanego obiektu zgodnie z ruchem myszki
-5. domyślna kontrolka dla akcji 'rotate' (wystający na górze kwadracik na obrazku A) jest wyłączona,
-6. domyślne kontrolki do rozszerzania (kwadraciki na środku każdego z boków na obrazku A) są wyłączone,
-7. element UI może mieć dowolną formę z możliwościa kliknięcia,
-8. kliknięcie powoduje modyfikację koloru aktywnego obiektu na canvasie - kolor może być losowy.
-9. element graficzny jak i element UI są ze sobą skorelowane tzn. przesunięcie elementu graficznego, powoduje przesunięcie elementu UI o taką samą deltę. 
-10. rozwiązanie musi się kompilować oraz uruchamiać w przeglądarce.
-11. uruchomiony projekt musi zawierać przynajmniej 5 elementów graficznych, oraz skorelowanych z nimi elementów UI.
+1. UI element must be under the control of React framework, graphic element using Fabric
+2.padding graphic item:
+- borders 10 px from the object,
+- icons at the ends of 10 px from the border,
+3.graphic element icons:
+- 'rotate' action icon - circle
+- 'resize' action icon - a triangle showing the resize direction
+4.positioning of action icons for a graphic item:
+- left-top - rotating the framed object according to the mouse movement
+- right-top - scaling the framed object (simultaneously in X and Y) according to the mouse movement
+- left-bottom - scaling the framed object (simultaneously in X and Y) according to the mouse movement
+- right-bottom - rotating the framed object with the mouse movement
+5.the default control for the 'rotate' action (the square at the top in the picture A) is turned off,
+6.the default controls for expanding (the squares in the middle of each side in image A) are disabled,
+7.UI element can have any form with the possibility of clicking,
+8. clicking modifies the color of the active object on the canvas - the color may be random.
+9. the graphic element and the UI element are correlated with each other, i.e. the shift of the graphic element causes the UI element to be moved by the same delta.
+10. the solution must compile and run in the browser.
+11. the running project must contain at least 5 graphic elements and UI elements correlated with them.
 
 
-## Informacje na temat wykorzystanych frameworków
+## Information on the frameworks used
 
-- React > 16.12
-- Fabric > 3.5
+- React> 16.12
+- Fabric> 3.5
 
-## Uruchomienie projektu
+## Project launch
 
 1. npm install
 2. npm run start
